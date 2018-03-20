@@ -1,0 +1,195 @@
+1. www.facebook.com
+General
+Request URL:https://www.facebook.com/
+Request Method:GET
+Status Code:200 
+Remote Address:185.60.216.35:443
+Referrer Policy:no-referrer-when-downgrade
+
+Response Headers
+cache-control:private, no-cache, no-store, must-revalidate
+content-encoding:br
+content-security-policy:default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;
+content-type:text/html; charset=UTF-8
+date:Tue, 20 Mar 2018 20:18:03 GMT
+expect-ct:max-age=10, report-uri="http://reports.fb.com/expectct/"
+expires:Sat, 01 Jan 2000 00:00:00 GMT
+pragma:no-cache
+status:200
+strict-transport-security:max-age=15552000; preload
+vary:Accept-Encoding
+x-content-type-options:nosniff
+x-fb-debug:kKUNPe4ratkwm0aJnF8PwcVQcvXhq4DCktdvX0673xRUSAIjy38VvB5eHRIbQlA05yNQyQjBFjxoRa/Ky5vE8Q==
+x-frame-options:DENY
+x-xss-protection:0
+
+Request Headers
+:authority:www.facebook.com
+:method:GET
+:path:/
+:scheme:https
+accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+accept-encoding:gzip, deflate, br
+accept-language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7
+cookie:sb=rESRWkLVYSwnwamHEOOVM_1O; datr=sESRWmZxV4u7oXPmMiUq4_-a; c_user=100000681917518; xs=8%3AeF9jxjklayLrOA%3A2%3A1519469763%3A9825%3A15694; pl=n; dpr=1.25; ; wd=1536x779; fr=0ZY8d16A3bXJAh2Xa.AWUsQ0eD6c5L1lUhbkwKpFZoJMI.BakURP.ML.Fqx.0.0.BasWlt.AWXwYAzb; act=1521576772088%2F0; presence=EDvF3EtimeF1521577074EuserFA21B00681917518A2EstateFDutF1521577074706CEchFDp_5f1B00681917518F8CC
+upgrade-insecure-requests:1
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+____________________________________________________________________________________________________________________________________________________________
+
+
+2.youtube.com
+
+General
+Request URL:https://www.youtube.com/
+Request Method:GET
+Status Code:200 
+Remote Address:172.217.16.46:443
+Referrer Policy:no-referrer-when-downgrade
+
+Response Headers
+alt-svc:hq=":443"; ma=2592000; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="42,41,39,35"
+cache-control:no-cache
+content-encoding:br
+content-type:text/html; charset=utf-8
+date:Tue, 20 Mar 2018 20:26:00 GMT
+expires:Tue, 27 Apr 1971 19:44:06 EST
+server:YouTube Frontend Proxy
+status:200
+strict-transport-security:max-age=31536000
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+x-xss-protection:1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube
+
+Request Headers
+:authority:www.youtube.com
+:method:GET
+:path:/
+:scheme:https
+accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+accept-encoding:gzip, deflate, br
+accept-language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7
+cookie:SID=zwX--xH6KhuxGNf_p-1al5eLVpWb0B_EnBK25dh-5ClDWLbax9pr7fD6Am661MNI9_AWIQ.; HSID=Ap67yM1bUHcyEIqeN; SSID=A7I2GVURkoMTSftoc; APISID=Ubdj4CdmgI0Fc2fg/AVWaefRbdrYC6rQ6V; SAPISID=KlSJ_jbtULpytr6z/AlIrWu_Won4XmRe7P; VISITOR_INFO1_LIVE=_B-gubUI_qk; LOGIN_INFO=AFmmF2swRQIhAKLjtwHLSxfWpvv7RQ4uHHkv8UiRgZvx0aVQevA2XCsNAiB0vQDrXHZ4O1uLIkpDR37rWSfS5XFMg1eCaEUMlM8AjA:QUQ3MjNmelM4cHpma1ZzTHQ0OVVULXdDY29qM0Z2a01JLUlZOENoZVBYbFZjZXp0MVdSQl9NUHgyakNJY3oyRFBBemN2VXk5a2FocFA5TEtDUW03SEZ1Rm55OW9SYVFVSXNvd2NPWjNkUG1YVTBVc2V2SkNPeFBrcG9rNFhnTkJrMHlLWFpCUU1BQUNZQ2g3Yk9NcVRsUVlKNE5IcmhsWWhCUEFVeE5XWGZSUmN0c01ldi1aSHFB; _ga=GA1.2.1019530436.1520197690; PREF=al=uk&f6=400&f1=50000000&f5=30030; YSC=wotqYNQrVxY; wide=1
+upgrade-insecure-requests:1
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+x-chrome-uma-enabled:1
+x-client-data:CIW2yQEIo7bJAQjBtskBCImSygEIqZ3KAQioo8oBGJKjygE=
+____________________________________________________________________________________________________________________________________________________________
+
+
+3.drive.google.com
+
+General
+Request URL:https://drive.google.com/drive/my-drive
+Request Method:GET
+Status Code:200  (from ServiceWorker)
+Remote Address:216.58.215.78:443
+Referrer Policy:no-referrer-when-downgrade
+
+
+Response Headers
+alt-svc:hq=":443"; ma=2592000; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="42,41,39,35"
+cache-control:no-cache, no-store, max-age=0, must-revalidate
+content-encoding:gzip
+content-security-policy:script-src 'report-sample' 'nonce-fdzzx/WDjFSm9g2DvUTrRSoeyHI' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/drive/prod
+content-type:text/html; charset=utf-8
+date:Tue, 20 Mar 2018 20:28:27 GMT
+expires:Mon, 01 Jan 1990 00:00:00 GMT
+pragma:no-cache
+server:GSE
+status:200
+strict-transport-security:max-age=31536000; includeSubDomains; preload
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+x-xss-protection:1; mode=block
+
+Request Headers
+Provisional headers are shown
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+____________________________________________________________________________________________________________________________________________________________
+
+
+4.trello.com
+
+General
+Request URL:https://trello.com/b/Sg671rvz/homeworks-hw-spaceman
+Request Method:GET
+Status Code:200 
+Remote Address:23.45.104.41:443
+Referrer Policy:no-referrer-when-downgrade
+
+Response Headers
+cache-control:no-store, no-cache, must-revalidate, proxy-revalidate
+content-encoding:gzip
+content-length:3313
+content-type:text/html; charset=utf-8
+date:Tue, 20 Mar 2018 20:29:42 GMT
+etag:W/"cf1-Xh5WYn3D32GbHsOnQ57H4euBrVk"
+expires:0
+pragma:no-cache
+referrer-policy:strict-origin-when-cross-origin
+status:200
+strict-transport-security:max-age=15552000
+surrogate-control:no-store
+vary:Accept-Encoding
+x-content-type-options:nosniff
+x-dns-prefetch-control:off
+x-download-options:noopen
+x-frame-options:DENY
+x-trello-environment:Production
+x-trello-version:1
+x-xss-protection:1; mode=block
+
+Request Headers
+:authority:trello.com
+:method:GET
+:path:/b/Sg671rvz/homeworks-hw-spaceman
+:scheme:https
+accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+accept-encoding:gzip, deflate, br
+accept-language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7
+cookie:_ga=GA1.2.539990894.1519469633; hasAccount=password; ajs_group_id=null; ajs_user_id=%225a91446e088616a3133e1ab8%22; G_ENABLED_IDPS=google; mab=5a91446e088616a3133e1ab8; ajs_anonymous_id=%22f5e1d5c3-a0cc-4f6e-9805-a21c30cffe71%22; token=5a91446e088616a3133e1ab8%2FKXLyiPkeDbT4h9ZvxcpAPnNix58j82ZUtS4pdZhx7Vb8ONfGcRYPRe3WVjoEhiTc; _gid=GA1.2.1896170712.1521393923; dsc=ce0dbc369fc0f1766efc8b5296a83ce74bff466d384f23635ac9558fd0bff464; lang=ru; _sp_id.dc4d=fbaf9c8175c5cc5c.1519469632.25.1521575635.1521572710.1cb193db-c820-4b89-8e3e-53099daf5b31
+upgrade-insecure-requests:1
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+____________________________________________________________________________________________________________________________________________________________
+
+
+5.lingualeo.com
+
+General
+Request URL:https://lingualeo.com/ru/dashboard?refererstep=survey
+Request Method:GET
+Status Code:200 OK
+Remote Address:34.253.50.193:443
+Referrer Policy:no-referrer-when-downgrade
+
+Response Headers
+Cache-Control:no-store, no-cache, must-revalidate
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Length:22950
+Content-Type:text/html;charset=UTF-8
+Date:Tue, 20 Mar 2018 20:30:58 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Pragma:no-cache
+Server:nginx
+Set-Cookie:daily_notification=1; expires=Tue, 20-Mar-2018 22:00:00 GMT; Max-Age=5342; path=/
+Set-Cookie:remember=62280e01e59a88d09f248933b43aa0a84b8e545e98dc98c1106db0491cda73c32411f24465f268b7; expires=Wed, 20-Jun-2018 20:30:58 GMT; Max-Age=7948800; path=/; domain=lingualeo.com
+X-lingualeouid:1519470171544795
+X-Request-ID:c10c3bc
+
+Request Headers
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+Accept-Language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7
+Connection:keep-alive
+Cookie:firstseen=2018/02/24; lingualeouid=1519470171544795; lang=ru; iface=ru; optimizelyEndUserId=oeu1519470157129r0.1411189683147014; optimizelySegments=%7B%221027890468%22%3A%22referral%22%2C%221036670278%22%3A%22gc%22%2C%221037430770%22%3A%22false%22%7D; optimizelyBuckets=%7B%7D; __auc=b98f006f161c77aa1eae9a045a9; _ga=GA1.2.241913393.1519470158; cto_lwid=bf2dccab-2828-44a1-8fee-8203fad83650; userid=17705058; browser-plugins-msg-start-show=1; _ym_uid=1519470840783613035; __utm2=eyJ1dG1fc291cmNlIjoibGxfcGx1Z2luIiwidXRtX21lZGl1bSI6InBsdWdpbiIsInV0bV9jYW1wYWlnbiI6InNpbXBsaWZpZWRjb250ZW50In0=; browser-plugins-msg-hide=1; servid=7701000aad663425392932c7bd24ba863f4be5108318d5bd456f37cba262472bf0dcd2fdf25005a9; AWSELB=2557C1310C3639B2044E28ED63A425D5E51A7BDACA0DEEA72DE0E538922A76699CF92D2A5811828293CA720C546AA4BC9A95137774D9B42E1DB3FDA843A43F014BD092C02AC96023E8905E67971317094312914BB1; remember=62280e01b390cce50d62818b4fabaee2e6e04e49b41b9443553a55fc86290e4f48c4182828e12fbb
+Host:lingualeo.com
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+Query String Parameters
+refererstep:survey
