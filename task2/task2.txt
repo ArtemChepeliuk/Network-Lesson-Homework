@@ -1,39 +1,69 @@
 1. www.facebook.com
-General
-Request URL:https://www.facebook.com/
-Request Method:GET
-Status Code:200 
-Remote Address:185.60.216.35:443
-Referrer Policy:no-referrer-when-downgrade
+General -------- використовуються в запитах і відповідях.
+
+Request URL:https://www.facebook.com/   -----відноснe або абсолютнe посилання на сторінку з набором параметрів, наприклад, /index.html або http://www.myhost.ru/index.html або /index.html?a=1&b=qq. В останньому випадку серверу буде переданий запит з набором змінних a і b з відповідними значеннями, а знак "&" ?? амперсант служить роздільником між параметрами.
+
+Request Method:GET   -------- метод, яким буде оброблятися ресурс Request-URI, може бути GET, POST, PUT, DELETE або HEAD.
+
+Status Code:200 --------- частина першого рядка відповіді сервера при запитах по протоколу HTTP. Він являє собою ціле число з трьох арабських цифр. Перша цифра вказує на клас стану. За кодом відповіді зазвичай йде відділена пробілом пояснювальна фраза на англійській мові, яка пояснює людині причину саме такої відповіді. 200-Стандартна відповідь про успішне виконання HTTP запиту. Фактична відповідь буде залежати від методу запиту. Для запитів GET, відповідь буде містити зміст об’єкту чи сторінки у відповідності до запитаного ресурсу. Для запитів POST відповідь буде містити опис об’єкту чи результат операції.
+
+Remote Address:185.60.216.35:443  -----------  Віддалена IP-адреса сайту. 
+
+Referrer Policy:no-referrer-when-downgrade ------------- Це поведінка за замовчуванням користувацького агента, якщо не вказано жодної політики. Джерело посилається як реферер, коли рівень захисту протоколу залишається таким самим (HTTPS-> HTTPS), але не надсилається на менш надійний пункт призначення (HTTPS-> HTTP).
 
 Response Headers
-cache-control:private, no-cache, no-store, must-revalidate
-content-encoding:br
-content-security-policy:default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;
-content-type:text/html; charset=UTF-8
-date:Tue, 20 Mar 2018 20:18:03 GMT
-expect-ct:max-age=10, report-uri="http://reports.fb.com/expectct/"
-expires:Sat, 01 Jan 2000 00:00:00 GMT
-pragma:no-cache
+
+cache-control:private, no-cache, no-store, must-revalidate -------------Загальний заголовок Cache-Control використовується для завдання інструкцій кешування як для запитів, так і для відповідей. Інструкції кешування односпрямовані: задана інструкція в запиті не має на увазі, що така ж інструкція буде вказана у відповіді
+
+content-encoding:br   -------------- Заголовок об'єкта Content-Encoding використовується для стиснення медіа-типу. Коли присутня, його значення вказує, які кодування були застосовані до тіла-одиниці. Це дозволяє клієнту знати, як розшифрувати, щоб отримати тип носія, на який посилається заголовок Content-Type.Рекомендується максимально стискати дані і, отже, використовувати це поле, але деякі типи ресурсів, наприклад зображення jpeg, вже стиснуті. Іноді використання додаткового стиснення не зменшує розмір корисної завантаженості і навіть може збільшити корисну навантаження. Формат, що використовує алгоритм Бретлі.
+
+content-security-policy:default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;  ---------------- Політика безпеки контенту (CSP) - це додатковий рівень безпеки, який допомагає виявити та пом'якшити певні типи нападів, зокрема Cross Site Scripting (XSS) та атаки на введення даних. Ці атаки використовуються для всього, починаючи від викрадення даних до виправлення або розповсюдження шкідливих програм.
+
+content-type:text/html; charset=UTF-8 -------- Тип контенту.
+
+date:Tue, 20 Mar 2018 20:18:03 GMT ----------- Дата.
+
+expect-ct:max-age=10, report-uri="http://reports.fb.com/expectct/" ---------- Заголовок Expect-CT дозволяє сайтам підключатися до звітування та / або дотримання вимог про прозорість сертифікатів, що перешкоджає використанню пропущених сертифікатів для цього сайту залишатись непоміченими. Коли сайт запускає заголовок Expect-CT, вони запитують, щоб веб-переглядач перевірив, чи будь-який сертифікат для цього сайту відображається у загальних журналах CT.
+
+expires:Sat, 01 Jan 2000 00:00:00 GMT ------------ Заголовок Expires містить дату/час, по закінченню якої відповідь від сервера вважається застарілою.
+
+pragma:no-cache   ---------------  Загальний заголовок Pragma HTTP / 1.0 - це спеціальний заголовок, який може мати різні ефекти у ланцюжку запиту-відповіді. Він використовується для зворотної сумісності з кешами HTTP / 1.0, де заголовок Cache-Control HTTP / 1.1 ще не присутній. Так само, як Cache-Control: no-cache. Зберігає кеш для передачі запиту до сервера походження для перевірки, перш ніж випускати кешовану копію.
+
 status:200
-strict-transport-security:max-age=15552000; preload
-vary:Accept-Encoding
-x-content-type-options:nosniff
-x-fb-debug:kKUNPe4ratkwm0aJnF8PwcVQcvXhq4DCktdvX0673xRUSAIjy38VvB5eHRIbQlA05yNQyQjBFjxoRa/Ky5vE8Q==
-x-frame-options:DENY
-x-xss-protection:0
+
+strict-transport-security:max-age=15552000; preload --------------- Заголовок відповіді HTTP Strict-Transport-Security (часто скорочено як HSTS) дозволяє веб-сайтам повідомляти браузерам про доступ до них лише за допомогою протоколу HTTPS замість використання HTTP.
+
+vary:Accept-Encoding ----------------- Заголовок HTTP-запиту "Прийняття-кодування" рекламує кодування вмісту, зазвичай алгоритм стиснення, який клієнт може зрозуміти. Використовуючи узгодження вмісту, сервер вибирає одне з пропозицій, використовує його та повідомляє клієнта за його вибором за допомогою заголовку відповіді контенту-кодування.
+
+x-content-type-options:nosniff -------------- Заголовок HTTP заголовка відповідей X-Content-Type-Options - це маркер, який використовується сервером, щоб вказати, що типи MIME, рекламовані заголовками Content-Type, не слід змінювати та слідувати. Це дозволяє відмовитися від перегляду типу MIME, або, іншими словами, можна сказати, що веб-майстри знали, що вони роблять.
+
+x-fb-debug:kKUNPe4ratkwm0aJnF8PwcVQcvXhq4DCktdvX0673xRUSAIjy38VvB5eHRIbQlA05yNQyQjBFjxoRa/Ky5vE8Q==        ------------ це ідентифікатор відстеження запитів, так що Facebook може знайти та відстежити конкретні деталі запиту [швидше], коли ви заповнюєте звіт про помилку. Вони бачили їх в великій кількості повідомлень про помилки на своєму трекере помилок.
+
+x-frame-options:DENY   ----------- Заголовок відповіді HTTP-відповіді параметрів X-Frame-Options може використовуватися для позначення того, чи браузеру слід дозволити відтворення сторінки в <frame>, <iframe> або <object>. Сайти можуть використовувати це, щоб уникнути атак на вилучення кліків, гарантуючи, що їх вміст не буде вбудований в інші сайти.
+
+x-xss-protection:0   ---------------- Заголовок відповіді HTTP X-XSS-захисту - це функція Internet Explorer, Chrome та Safari, яка припиняє завантаження сторінок при виявленні відбитих атак міжсистемних скриптів (XSS). Хоча ці захисні засоби у більшості випадків не потрібні в сучасних браузерах, коли сайти реалізують сильну політику Content-Security-Policy, яка вимикає використання inline JavaScript («небезпечно-inline»), вони все ще можуть забезпечувати захист для користувачів старих веб-переглядачів, які ще не є підтримка CSP.
 
 Request Headers
-:authority:www.facebook.com
-:method:GET
-:path:/
-:scheme:https
-accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
-accept-encoding:gzip, deflate, br
-accept-language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7
-cookie:sb=rESRWkLVYSwnwamHEOOVM_1O; datr=sESRWmZxV4u7oXPmMiUq4_-a; c_user=100000681917518; xs=8%3AeF9jxjklayLrOA%3A2%3A1519469763%3A9825%3A15694; pl=n; dpr=1.25; ; wd=1536x779; fr=0ZY8d16A3bXJAh2Xa.AWUsQ0eD6c5L1lUhbkwKpFZoJMI.BakURP.ML.Fqx.0.0.BasWlt.AWXwYAzb; act=1521576772088%2F0; presence=EDvF3EtimeF1521577074EuserFA21B00681917518A2EstateFDutF1521577074706CEchFDp_5f1B00681917518F8CC
-upgrade-insecure-requests:1
-user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+:authority:www.facebook.com   ------------ Заголовок запиту на авторизацію HTTP містить облікові дані для автентифікації агента користувача із сервером, як правило, після того, як сервер відповідав 401 Неавторизованим статусом та заголовком WWW-Authenticate.
+
+:method:GET  ------- метод
+
+:path:/  --------- шлях
+
+:scheme:https -----------  схема
+
+accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 -------------- Запит Accept HTTP заголовка рекламує ті типи вмісту, які виражаються як типи MIME, які клієнт може зрозуміти. Використовуючи узгодження вмісту, сервер потім вибирає одне з пропозицій, використовує його та інформує клієнта за його вибором за допомогою заголовка відповіді контенту. Браузери встановлюють адекватні значення для цього заголовка в залежності від того, в якому контексті виконується запит: при завантаженні таблиці стилів CSS для запиту встановлюється інше значення, ніж при завантаженні зображення, відео або сценарію.
+
+accept-encoding:gzip, deflate, br   ------------- Заголовок HTTP-запиту "Прийняття-кодування" рекламує кодування вмісту, зазвичай алгоритм стиснення, який клієнт може зрозуміти. Використовуючи узгодження вмісту, сервер вибирає одне з пропозицій, використовує його та повідомляє клієнта за його вибором за допомогою заголовку відповіді контенту-кодування.
+
+accept-language:ru,en-US;q=0.9,en;q=0.8,uk;q=0.7  ---------- Заголовок HTTP заголовка Accept-Language заявляє про те, які мови клієнт вміє розуміти, а також про те, який варіант мовлення є кращим. (За мовами ми маємо на увазі природні мови, наприклад, англійську мову, а не мови програмування.) Використовуючи узгодження вмісту, сервер потім обирає одне з пропозицій, використовує його та інформує клієнта за його вибором за допомогою заголовка відповіді контенту. Браузери встановлюють адекватні значення для цього заголовку згідно з їхньою мовою інтерфейсу користувача, і навіть якщо користувач може змінити це, це трапляється рідко (і це насичено, оскільки це призводить до відбитків пальців).Цей заголовок - це підказка, яка використовується, коли сервер не може визначати мову іншим способом, як-от конкретна URL-адреса, яка контролюється явним рішенням користувача. Рекомендується, щоб сервер ніколи не скасовував явне рішення. Вміст Accept-Language часто знаходиться поза контролем користувача (наприклад, під час подорожі та використання Інтернет-кафе в іншій країні); користувач може також захотіти відвідати сторінку іншою мовою, ніж локаль свого інтерфейсу користувача.Якщо сервер не може обслуговувати відповідну мову, теоретично він може відправити назад код 406 (не прийнятний). Але для кращого користувацького досвіду це рідко виконується, і найпоширеніший спосіб полягає в тому, щоб ігнорувати заголовок Accept-Language у цьому випадку.
+
+cookie:sb=rESRWkLVYSwnwamHEOOVM_1O; datr=sESRWmZxV4u7oXPmMiUq4_-a; c_user=100000681917518; xs=8%3AeF9jxjklayLrOA%3A2%3A1519469763%3A9825%3A15694; pl=n; dpr=1.25; ; wd=1536x779; fr=0ZY8d16A3bXJAh2Xa.AWUsQ0eD6c5L1lUhbkwKpFZoJMI.BakURP.ML.Fqx.0.0.BasWlt.AWXwYAzb; act=1521576772088%2F0;presence=EDvF3EtimeF1521577074EuserFA21B00681917518A2EstateFDutF1521577074706CEchFDp_5f1B00681917518F8CC ----------- кукі
+
+upgrade-insecure-requests:1 ------------ Заголовок запиту HTTP Update-Insecure-Requests надсилає сигнал серверу, який виражає перевагу клієнта для зашифрованої та автентифікованої відповіді, і що він може успішно обробляти директиву CSP щодо вимог щодо нестабільних запитів на оновлення.
+
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36 ------------- Заголовок запиту User-Agent містить характерний рядок, який дозволяє однорідним мережевим протоколам ідентифікувати тип програми, операційну систему, постачальника програмного забезпечення або версію програмного забезпечення запитуючого агента програмного забезпечення.
 
 ____________________________________________________________________________________________________________________________________________________________
 
