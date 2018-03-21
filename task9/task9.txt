@@ -1,0 +1,7 @@
+1.
+- https://fiddle.jshell.net/_display/ 
+- https://api.privatbank.ua/stat 
+- https://play.google.com/log?format=json&authuser=0 
+- https://rozetka.com.ua/samsung_galaxy_s8_plus_64gb_gold/p15260346/#cart
+- https://lingualeo.com/ru/training/wordTranslate
+2. Mетод POST - це той  метод ,де сайт щось відправляє, наприклад дані в корзину, дані про оплату, переважно можна знайти метод пост в сайтах інтернет магазинів, в різних онлайн редакторах що щось зберігають.
